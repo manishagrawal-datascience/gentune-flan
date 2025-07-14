@@ -38,7 +38,7 @@ def optimize_flan_t5_small(prompts, references, params={}, error_metric='ROUGE-L
 
       generation_args = obj.best_estimator(prompts, references, generation_args, error_metric, population_size, number_of_generation, mutation_rate, random_seed)
 
-      return generation_args
+      return generation_args[0]
 
   except Exception as e:
       print(e)
