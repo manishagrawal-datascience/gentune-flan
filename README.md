@@ -4,26 +4,19 @@ Genetic Algorithm used to optimise the finetunning of FLAN-T5
 # library dependecies
 The following libraries must be installed for the library gentune-flan to work
 
-pip install evaluate
-pip install transformers
-pip install rouge-score
-pip install pandas
-pip install numpy
-pip install torch
+pip install evaluate, transformers, rouge-score, pandas, numpy, torch
 
 # the gentune-flan library
 pip install gentune-flan
 
 # Example (Summery creation from FLAN-T5 Base Model)
-# Use the installed library to optimze the hyperparameters of FLAN-T5 models for finitunning
+
 import gentune-flan
 
 dataset = dataset = load_dataset("cnn_dailymail", "3.0.0", cache_dir="./hf_cache")
 
-# Select a subset for evaluation
 test_data = dataset["test"].select(range(100))
 
-# Sanitize and build prompts + references
 prompts = []
 references = []
 
