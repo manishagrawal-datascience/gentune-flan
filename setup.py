@@ -1,12 +1,17 @@
 [metadata]
 
+from setuptools import setup, find_packages
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 name = "gentune-flan"
 version = "0.1.1"
 author = "Manish Agrawal"
 author_email = manishagrawal.datascience@gmail.com
 description = "Genetic Algorithm: Optimize the finetunning of FLAN-T5 models"
-long_description = file: README.md
-long_description_content_type = text/markdown
+long_description = long_description
+long_description_content_type = "text/markdown"
 url = https://github.com/manishagrawal-datascience/gentune-flan.git
 
 classifiers =
@@ -15,8 +20,8 @@ classifiers =
     Operating System :: OS Independent
 
 [options]
-package_dir = src
-packages = find:
+package_dir={"": "src"}
+packages=find_packages(where="src")
 python_requires = "3.6"
 install_requires =
     transformers == "2.53.1"
