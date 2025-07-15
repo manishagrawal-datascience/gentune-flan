@@ -1,7 +1,7 @@
 [metadata]
 
 name = gentune-flan
-version = 0.1.1
+version = "0.1.1"
 author = Manish Agrawal
 author_email = manishagrawal.datascience@gmail.com
 description = Genetic Algorithm: Optimize the finetunning of FLAN-T5 models
