@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="gentuneflant5",
-    version="0.1.5",
+    name="gentune_flan",
+    version="0.1.6",
     author="Manish Agrawal",
     author_email="manishagrawal.datascience@gmail.com",
     description="Genetic Algorithm: Optimize the finetuning of FLAN-T5 models",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/manishagrawal-datascience/gentune-flan.git",
+    url="https://github.com/manishagrawal-datascience/gentune_flan.git",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
