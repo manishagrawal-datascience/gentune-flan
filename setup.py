@@ -1,10 +1,10 @@
 [metadata]
 
-name = gentune-flan
+name = "gentune-flan"
 version = "0.1.1"
-author = Manish Agrawal
+author = "Manish Agrawal"
 author_email = manishagrawal.datascience@gmail.com
-description = Genetic Algorithm: Optimize the finetunning of FLAN-T5 models
+description = "Genetic Algorithm: Optimize the finetunning of FLAN-T5 models"
 long_description = file: README.md
 long_description_content_type = text/markdown
 url = https://github.com/manishagrawal-datascience/gentune-flan.git
@@ -17,12 +17,12 @@ classifiers =
 [options]
 package_dir = src
 packages = find:
-python_requires = 3.6
+python_requires = "3.6"
 install_requires =
-    transformers == 2.53.1
-    evaluate == 0.4.5
-    NumPy == 2.0.2
-    Pandas == 2.2.2
-    rouge_score == 0.1.2
+    transformers == "2.53.1"
+    evaluate == "0.4.5"
+    NumPy == "2.0.2"
+    Pandas == "2.2.2"
+    rouge_score == "0.1.2"
 [options.packages.find]
 where = src
