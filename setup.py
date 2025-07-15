@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="gentune_flan",
-    version="0.1.3",
+    name="gentuneflan",
+    version="0.1.4",
     author="Manish Agrawal",
     author_email="manishagrawal.datascience@gmail.com",
     description="Genetic Algorithm: Optimize the finetuning of FLAN-T5 models",
