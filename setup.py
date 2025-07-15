@@ -1,4 +1,4 @@
-[metadata]
+setup(
 
 from setuptools import setup, find_packages
 
@@ -31,3 +31,4 @@ install_requires = [
     "rouge_score == 0.1.2"]
 [options.packages.find]
 where = src
+)
