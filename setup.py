@@ -12,7 +12,7 @@ author_email = manishagrawal.datascience@gmail.com
 description = "Genetic Algorithm: Optimize the finetunning of FLAN-T5 models"
 long_description = long_description
 long_description_content_type = "text/markdown"
-url = https://github.com/manishagrawal-datascience/gentune-flan.git
+url = "https://github.com/manishagrawal-datascience/gentune-flan.git"
 
 classifiers =
     Programming Language :: Python :: 3
