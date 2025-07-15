@@ -23,11 +23,11 @@ classifiers =[
 package_dir={"": "src"}
 packages=find_packages(where="src")
 python_requires = "3.6"
-install_requires =
-    transformers == "2.53.1"
-    evaluate == "0.4.5"
-    NumPy == "2.0.2"
-    Pandas == "2.2.2"
-    rouge_score == "0.1.2"
+install_requires = [
+    "transformers == 2.53.1",
+    "evaluate == 0.4.5",
+    "NumPy == 2.0.2",
+    "Pandas == 2.2.2",
+    "rouge_score == 0.1.2"]
 [options.packages.find]
 where = src
