@@ -14,10 +14,10 @@ long_description = long_description
 long_description_content_type = "text/markdown"
 url = "https://github.com/manishagrawal-datascience/gentune-flan.git"
 
-classifiers =
-    Programming Language :: Python :: 3
-    License :: OSI Approved :: MIT License
-    Operating System :: OS Independent
+classifiers =[
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"]
 
 [options]
 package_dir={"": "src"}
