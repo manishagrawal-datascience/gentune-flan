@@ -21,10 +21,10 @@ setup(
     packages=find_packages(where="src"),
     python_requires=">=3.6",
     install_requires=[
-        "transformers==2.53.1",
-        "evaluate==0.4.5",
-        "numpy==2.0.2",
-        "pandas==2.2.2",
-        "rouge_score==0.1.2"
+        "transformers>=2.53.1",
+        "evaluate>=0.4.5",
+        "numpy>=2.0.2",
+        "pandas>=2.2.2",
+        "rouge_score>=0.1.2"
     ],
 )
